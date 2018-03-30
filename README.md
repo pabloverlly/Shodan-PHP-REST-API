@@ -39,7 +39,7 @@ https://github.com/ScadaExposure/Shodan-PHP-REST-API/blob/master/src/shodan-api.
 $key = 'Insert your API key here';
 ```
 
-Following are the options:
+A seguir estão as opções:
 
 | Short form | Long form | Variables |
 | :----------: | :---------: | --- |
@@ -66,18 +66,18 @@ Following are the options:
 | -m | --method | ShodanCountries --countries STRING |
 | -m | --method | ShodanPorts_Stream --ports STRING |
 
-## Some CLI Run Examples
+## Alguns exemplos de execução via CLI
 
-### Showing usage options:
+### Mostrando opções de uso:
 ![Shodan-usage](https://raw.githubusercontent.com/alexsalvetti/shodan-php-api.github.io/master/shodan-usage.gif)
 
-### Shodan Host method on Facebook ip:
+### Método ShodanHost no ip do facebook:
 ![Shodan-ip](https://raw.githubusercontent.com/alexsalvetti/shodan-php-api.github.io/master/shodan-ip.gif)
 
-### Shodan Scan request on some ips:
+### Requisição ShodanScan em alguns endereços IPs :
 ![Shodan-scan](https://raw.githubusercontent.com/alexsalvetti/shodan-php-api.github.io/master/shodan-scan.gif)
 
-### Shodan Scan request status:
+### Status da Requisição ShodanScan:
 ![Shodan-scan-id](https://raw.githubusercontent.com/alexsalvetti/shodan-php-api.github.io/master/shodan-scan-id.gif)
 
 ## Handle overlapping methods
