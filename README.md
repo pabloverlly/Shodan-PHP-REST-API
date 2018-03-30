@@ -92,10 +92,10 @@ But the URL must not have those renaming, so we eliminate the ```_``` and all it
 
 You can find it at: https://github.com/ScadaExposure/Shodan-PHP-REST-API/blob/master/src/Shodan.php#L471
 
-## Tests class - REST API
+## Classe de testes - REST API
 
 ### Shodan Host (```/tests/ip.php```): 
-Return all services that have been found on the given host IP.
+Retorna todos os serviços que foram encontrados no IP do host fornecido.
 ```php
 var_dump($client->ShodanHost(array(
 	'ip' => '69.171.230.68', // https://www.facebook.com/
@@ -103,7 +103,7 @@ var_dump($client->ShodanHost(array(
 ```
 
 ### Shodan Host Count (```/tests/count.php```): 
-Returns the total number of results that matched the query and any facet information that was requested.
+Retorna o número total de resultados que correspondem a consulta.
 ```php
 var_dump($client->ShodanHostCount(array(
   'query' => 'Niagara Web Server',
