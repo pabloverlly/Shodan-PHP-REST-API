@@ -13,26 +13,26 @@
 
 Shodan-PHP-REST-API is licensed under the GNU GPL v3 and is a project sponsored by [ISGroup SRL](http://www.isgroup.biz) and authored by [Alex Salvetti](https://github.com/alexsalvetti) and [Francesco `ascii` Ongaro](https://github.com/isgroup-srl). This software is currently used by [ScadaExposure](http://www.scadaexposure.com/), a permanent observatory on the exposure of ICS and SCADA devices on the Internet, to generate it's datasets.
 
-## Features
+## Características
 
-- Search Shodan.
-- Streaming API support for real-time consumption of Shodan data.
-- Exploit search API fully implemented.
+- Pesquisa Shodan.
+- Suporte a API de Streaming para uso em tempo real dos dados Shodan.
+- API de busca de Exploits totalmente implementada.
 
-## Notes
+## Notas
 
-* Shodan.php is the API class: costants, shodan methods and the generation of the HTTP requests are defined here.
-* The script uses PHP magic methods (http://php.net/manual/en/language.oop5.magic.php).
-* shodan-api.php is the CLI interface, allowing to run differents commands; it also provides an how-to function.
-* Our API implementation uses 3 different base URLs: Shodan API, Streaming API and Exploits API.
-* Tests folder provides some examples on how to write your own search query, use the CLI ```-r``` flag for running them all or call one with the ```-t``` flag.
-* If you're in search of better and more thorough documentation, please refer to Shodan's REST API documentation (https://developer.shodan.io/api).
-* For Shodan EXPLOITS API refer to the documentation (https://developer.shodan.io/api/exploits/rest).
-* For Shodan STREAM API refer to the documentation (https://developer.shodan.io/api/stream).
+* Shodan.php é a classe API: constants, metodos do shodan e a geração das requisições HTTP são definidas aqui.
+* O script usa os métodos mágicos PHP (http://php.net/manual/pt_BR/language.oop5.magic.php).
+* shodan-api.php é a interface CLI, permitindo executar diferentes comandos; ele também fornece uma função de instruções.
+* Nossa implementação de API usa 3 URLs bases diferentes: Shodan API, Streaming API e Exploits API.
+* A pasta de testes fornece alguns exemplos sobre como escrever sua própria query de pesquisa, no CLI, use a opção ```-r``` para executar todas as consultas, ou use a opção ```-t``` para escolher uma.
+* Se você está em busca de uma documentação melhor e mais completa, por favor consulte a documentação da REST API Shodan (https://developer.shodan.io/api).
+* Para a API Shodan EXPLOITS consulte a documentação (https://developer.shodan.io/api/exploits/rest).
+* Para a API Shodan STREAM consulte a documentação (https://developer.shodan.io/api/stream).
 
-## Usage
+## Uso
 
-You can implement the class API directly in your code or experiment with the CLI. In both cases you'll need to change your API KEY in shodan-api.php or anywhere you istantiate the API object:
+Você pode implementar a classe API diretamente no seu código ou experimentar a CLI (linha de comando). Em ambos os casos, você precisará alterar sua API KEY em shodan-api.php ou em qualquer lugar em que você instanciar um objeto da API:
 
 https://github.com/ScadaExposure/Shodan-PHP-REST-API/blob/master/src/shodan-api.php#L7
 ```php
